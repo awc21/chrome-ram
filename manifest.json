@@ -1,0 +1,12 @@
+{
+  "name": "RAM Limiter",
+  "version": "1.0",
+  "description": "Limits Chrome's RAM usage.",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
